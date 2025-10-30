@@ -93,7 +93,7 @@ package-lock.json文件确保在不同环境中安装完全相同的依赖版本
 
 ### 创建入口文件
 
-创建一个名为index.js的文件（或package.json中指定的入口文件），并添加以下代码：
+在package.json同目录下创建一个名为index.js的文件（或package.json中指定的入口文件），并添加以下代码：
 
 ```javascript
 const express = require('express');
@@ -176,7 +176,7 @@ Example app listening at http://localhost:3000
 
 ### 测试应用
 
-打开浏览器并访问http://localhost:3000，您应该看到页面显示"Hello World!"。
+打开浏览器并访问http://localhost:3000 ，您应该看到页面显示"Hello World!"。
 
 ## 理解Express应用的工作流程
 
